@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,600,200italic,600italic&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+	<script src="http://phuonghuynh.github.io/js/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="http://phuonghuynh.github.io/js/bower_components/d3/d3.min.js"></script>
+	<script src="http://phuonghuynh.github.io/js/bower_components/d3-transform/src/d3-transform.js"></script>
+	<script src="http://phuonghuynh.github.io/js/bower_components/cafej/src/extarray.js"></script>
+	<script src="http://phuonghuynh.github.io/js/bower_components/cafej/src/misc.js"></script>
+	<script src="http://phuonghuynh.github.io/js/bower_components/cafej/src/micro-observer.js"></script>
+	<script src="http://phuonghuynh.github.io/js/bower_components/microplugin/src/microplugin.js"></script>
+	<script src="bubble-chart.js"></script> 
+	<script src="http://phuonghuynh.github.io/js/bower_components/bubble-chart/src/plugins/central-click/central-click.js"></script>
+	<script src="http://phuonghuynh.github.io/js/bower_components/bubble-chart/src/plugins/lines/lines.js"></script>
+	<script src="index.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+	<title>Oil in Saudi Arabia</title>
+</head>
+
+<body>
+
+	<header>
+		<img src="img/title.png"  class="title">
+	</header>
+
+	<!-- SECTION ONE OIL HISTORY  -->
+	<section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="img/cd-icon-picture.svg" class="year" alt="1938">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h3>Oil Discovered in Saudi Arabia.</h3>
+
+				
+				<span class="cd-date"></span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="img/1948-01.svg" alt="1948" class="year" >
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h3>The Ghawar Field was discovered in saudi arabia</h3>
+
+				<span class="cd-date">
+				</span>
+				
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="img/1951-01.svg" alt="1951" class="year" >
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h3>Production began in This year and reached a peak of 5.7 million barrels per day in 1981</h3>
+
+				<span class="cd-date"></span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="img/1960-01.svg" alt="1960" class="year" >
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h3>OPEC is a permanent, intergovernmental Organization, created at the Baghdad by Iran, Iraq, Kwt, KSA and Venezuela.</h3>
+				<span class="cd-date"></span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="img/1979-01.svg" alt="1979" class="year" >
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h3>Period of rapidly increasing prices,Saudi Arabia's oil </h3>
+				<span class="cd-date"></span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="img/2008-01.svg" alt="2008" class="year" >
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h3>The global financial crisis caused preices to plummet 78.1% from july to December </h3>
+				<span class="cd-date"></span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="img/2015-01.svg" alt="2015" class="year" >
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h3>Oil production reached 10.3 million barrels per day in March. </h3>
+
+				<span class="cd-date"></span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+	</section> <!-- cd-timeline -->
+	
+	<!-- SECTION TWO ECONOMY -->
+	<script src="js/main.js"></script>   
+
+	<div class="container section bg_cloud">
+		<img src="img/LABEL2.png"  class="LABEL2">
+		<div class="section1 cd-container">
+			<div id="clouds">
+				<div class="cloud x1"></div>
+				<!-- Time for multiple clouds to dance around -->
+				<div class="cloud x2"></div>
+				<div class="cloud x3"></div>
+				<div class="cloud x4"></div>
+				<div class="cloud x5"></div>
+				<div class=" card">
+
+					<h2 class="card-header">Values of Exports (m $)</h2>
+					<h2 class="value"><span class="count">317614</span></h2>
+				</div>
+				<div class=" card">
+
+					<h2 class="card-header">Values of Imports (m $)</h2>
+					<h2 class="value"><span class="count">167484</span></h2>
+				</div>
+				<div class="card">
+					<h2 class="card-header" >Oil Reserves Billion bbl</h2>
+					<h2 class="value"><span class="count">266455</span></h2>
+				</div>
+				<div class="card">
+					<h2 class="card-header">Consumption</h2>
+					<h2 class="value"><span class="count">10208</span></h2>
+				</div>
+				<script src="js/index.js"></script> 
+			</div>
+		</div>
+	</div>
+
+	<!-- SECTION THREE OIL PRODUCTION -->
+	<div class="container section grass">
+		<img src="img/LABEL3.png"  class="LABEL3">
+		<div class="row">
+			<img src="img/r1.png"  class="r1">
+			<img src="img/r3.png"  class="r3">
+		</div>
+		<div class="row cd-container section2">
+			<div class="col-md-8 bubbleChart"></div>
+			<div class="col-md-4">
+				<div id="ball"><span>10,460 (kb/d)</span>
+					Average Crude Oil Production 2016
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- SECTION FOUR REFINERY -->
+	<div class="container section grass1">
+		<div class="cd-container section3">
+			<script type='text/javascript' src='http://35.157.8.133/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' width='100%' style='width: 100%; height: 100%;text-align: center;'><object class='tableauViz'  width='100%' height='500' margin='0 auto' style='display:none; text-align: center; background: #000;'><param name='host_url' value='http%3A%2F%2F35.157.8.133%2F' /> <param name='site_root' value='' /><param name='name' value='saudioil&#47;SaudiOildb' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showShareOptions' value='true' /></object></div>
+		</div>
+	</div>
+
+	<!-- SECTION FIVE VISION 2030 -->
+	<div class="container section bg-future">
+		<img src="img/2030_vision_logo.png"  class="2030_vision_logo">
+		<div class="row cd-container section4">
+			<div class="col-md-12">
+				<div class="ball">
+					<img src="img/1-01.png" class="future_icon">
+					<p class="future_p">Raise our global ranking in
+						the Logistics Performance
+						Index from 49 to 25</p>
+				</div>
+				<div class="ball">
+					<img src="img/2-01.png" class="future_icon">
+					<p class="future_p">Raise the share of non-oil
+						exports in non-oil GDP
+						from 16% to 50%</p>
+				</div>
+				<div class="ball">
+					<img src="img/3-01.png" class="future_icon">
+						<p class="future_p">
+							Manage oil production to 
+							ensure a rewarding flow of
+							oil revenue </p>
+				</div>
+				<div class="ball">
+					<img src="img/4-01.png" class="future_icon">
+					<p class="future_p">
+						Non-oil revenues will
+						increase as logistical and
+						trade flows increase </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div> 
+		<h2 data-scroll-reveal="enter left move 150px, after 0.9s"></h2>
+	</div>
+
+	<script>
+		window.sr = ScrollReveal({ reset: true });
+		sr.reveal('.section1', { duration: 900 });
+		sr.reveal('.section2', { duration: 900 });
+		sr.reveal('.section3', { duration: 900 });
+		sr.reveal('.section4', { duration: 900 });
+
+	</script>
+</body>
+</html>
